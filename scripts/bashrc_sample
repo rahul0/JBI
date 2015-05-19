@@ -1,0 +1,11 @@
+# .bashrc
+
+# sample  bashrc configuration for  compiling with GSL and minuit
+export PATH='/home/rahul/install/bin/':$PATH
+gsl_home='/home/rahul/install'
+google_home='/home/rahul/package/sparsehash'
+export m_inc='/home/rahul/minuit2_cpp/inc'
+export m_lib='/home/rahul/minuit2_cpp/src/.libs'
+export v_home='/home/rahul/package/valgrind_install'
+export LD_LIBRARY_PATH=$google_home/lib:$gsl_home/lib:$m_lib:$v_home/lib:$LD_LIBRARY_PATH
+
