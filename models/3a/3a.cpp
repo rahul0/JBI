@@ -1226,6 +1226,7 @@ double get_factor12(const int word_curr,const int word_next,const int t_prime,co
     fclose(fp);
   }
 
+//model to disk,as model params
   void write_model(){
     cout <<  "writting model : LOOP_COUNT=  "  << loop  << "\n" ;
     FILE* fp;
@@ -1250,6 +1251,7 @@ double get_factor12(const int word_curr,const int word_next,const int t_prime,co
 
   }
 
+//diagonistics
   void write_model_gibbs(){
 
     cout <<  "writting model : LOOP_COUNT=  "  << loop  << "\n" ;
